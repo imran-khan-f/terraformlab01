@@ -7,6 +7,12 @@ terraform {
       version = "6.17.0" # AWS hashicorp version
     }
   }
+  cloud {
+    organization = "Imran-Lab01" 
+    workspaces { 
+      name = "CLI-lab" 
+    } 
+  }
 }
 
 # Provider Block
